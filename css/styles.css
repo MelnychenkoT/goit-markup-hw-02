@@ -39,8 +39,13 @@ ul {
     color: #2e2f42;
 }
 
-.header-menu-link:focus {
-    color: #4D5AE5;
+.header-menu-item:hover,
+.header-menu-item:focus{
+    color: #404bbf
+}
+
+.contacts {
+font-style: normal;
 }
 
 .contacts-link {
@@ -48,19 +53,18 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        font-style: normal;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .main-text {
     background: #2E2F42;
 }
 
-h1 {
+.main-text-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -68,16 +72,20 @@ h1 {
     color: #fff;
 }
 
-button {
+.main-text-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em
     font-family: inherit;
     cursor: pointer;
-    letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-button:focus {
-    color: #4D5AE5;
+    }
+    
+.main-text-button:hover,
+.main-text-button:focus {
+    background-color: #404BBF;
 }
 
 .company-skills-title {
@@ -105,12 +113,12 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list {}
 
 .team-card {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
@@ -141,6 +149,7 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .portfolio-list {}
@@ -174,7 +183,7 @@ button:focus {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -187,7 +196,7 @@ button:focus {
 .foter-logo-accent {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
