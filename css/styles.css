@@ -22,9 +22,9 @@ ul {
     color: #4d5ae5;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-
+.header-logo:hover,
 .heder-logo:focus {
-    color: #4D5AE5;
+    color:#404bbf;
 }
 
 .logo-accent {
@@ -76,8 +76,8 @@ font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em
-    font-family: inherit;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     color: #fff;
     background: #4d5ae5;
